@@ -1,0 +1,63 @@
+:root {
+    --primary-color: #2E7D32;
+    --secondary-color: #FFC107;
+    --light-color: #F5F5F5;
+    --dark-color: #212121;
+    --accent-color: #8D6E63;
+    --highlight-color: #1565C0;
+}
+
+body {
+    background-image: url('imagenes/image.png');
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--dark-color);
+    overflow-x: hidden;
+    background-color: var(--light-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background-color: #1B5E20;
+    border-color: #1B5E20;
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: var(--dark-color);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.login-form {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.25rem rgba(46, 125, 50, 0.25);
+}
+
+a.text-primary {
+    color: var(--primary-color) !important;
+    text-decoration: underline;
+}
+
+a.text-primary:hover {
+    color: var(--secondary-color) !important;
+}
